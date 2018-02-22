@@ -22,28 +22,30 @@
                             </div>
                         <div class="col-lg item">
                             <form class="form-group">
-                                <label>Ethereum Address</label>
-                                <input class="form-control" type="text" name="Ethereum Address">
-                                <label>Destination</label>
-                                <input class="form-control" type="text" name="Contry">
+                                <label>Provider Address</label>
+                                <input class="form-control" type="text" id="eth_account" name="Ethereum Address">
                                 <label>Minimum Deposit</label>
-                                <input class="form-control" type="text" name="Minimum Deposit">
+                                <input class="form-control" type="number" id ="min_deposit" name="Minimum Deposit">
                                 <label>Commission</label>
-                                <input class="form-control" type="text" name="Commission">
+                                <input class="form-control" type="number" id="commission" name="Commission">
                                 <label>Cancellation deadline</label>
-                                <input class="form-control" type="text" name="Cancellation deadline">
+                                <input class="form-control" type="number" id="cancel_deadline" name="Cancellation deadline">
                                 <label>Offer Start Date</label>
-                                <input class="form-control" type="date" name="Start Date">
+                                <input class="form-control" type="date" id="start_date" name="Start Date">
                                 <label>Offer End Date</label>
-                                <input class="form-control" type="date" name="End Date">
+                                <input class="form-control" type="date" id="end_date" name="End Date">
                                 <label>MetaData Link</label>
-                                <input class="form-control" type="link" name="Link of more Informations">
-                                <input type="submit" class="btn btn-dark" value="Submit">
-                         </form> 
+                                <input class="form-control" type="link" id="meta_link" name="Link of more Informations">
+                                <input type="button" id="button" class="btn btn-dark" value="Submit">
+                            </form>
                         </div>
                     </div>
-             </div>
+                 </div>
+            </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
