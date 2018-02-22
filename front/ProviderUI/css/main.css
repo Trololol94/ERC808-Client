@@ -1,0 +1,33 @@
+body {
+    background-color: #262626;
+}
+
+.navbar {
+    background-color: #0E3A9E;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.cards {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.card img {
+    width: 500px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.card .item .btn {
+    float: right;
+    margin-top: 150px;
+}
