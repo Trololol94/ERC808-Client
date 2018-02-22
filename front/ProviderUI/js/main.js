@@ -13,17 +13,17 @@ $("#button").click(function() {
     console.log(Ether);
 
     // Ether.setInstructor($("#name").val(), $("#age").val());
-    Ether.addProvider(web3.eth.accounts[0], "Sin");
+    // Ether.addProvider(web3.eth.accounts[0], "Sin");
 
-    console.log(Ether.getProvider(web3.eth.accounts[0]));
-    console.log(Ether.addAvailabilities(
-        1,
-        1,
-        "REQUESTED",
-        $("#commission").val(),
-        $("#cancel_deadline").val(),
-        2,
-        3,
-        $("#meta_link").val()
-    ));
+    // console.log(Ether.getProvider(web3.eth.accounts[0]));
+    // console.log(Ether.addAvailabilities(
+    //     1,
+    //     1,
+    //     "REQUESTED",
+    //     $("#commission").val(),
+    //     $("#cancel_deadline").val(),
+    //     2,
+    //     3,
+    //     $("#meta_link").val()
+    // ));
 });
